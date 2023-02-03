@@ -1,6 +1,4 @@
-package Serializator;
-
-import Homework_6.Designer_Human;
+package Homework_5;
 
 import java.io.*;
 
@@ -50,7 +48,7 @@ public class Serializator implements interfaseSave {
      * @throws InvalidObjectException
      */
     @Override
-    public Designer_Human DesSerializa(Designer_Human humans) throws InvalidObjectException {
+    public Designer_Human DesSerializa(Designer_Human human1) throws InvalidObjectException {
         File file = new File("Human.bin");
         ObjectInputStream ous = null;
 

@@ -1,7 +1,7 @@
-package OldClass;
+package metods;
 
-import Homework_6.Designer_Human;
-import Homework_6.Femily_Tree;
+import Homework_5.Designer_Human;
+import Homework_5.Femily_Tree;
 
 import java.util.List;
 
@@ -14,16 +14,16 @@ public class PrintMetods {
      */
 
     /**
-     * Метод вывода всех людей из списка (U)
+     * Метод вывода всех людей из списка
      */
-    public void printDrevo(Designer_Human humans) {
+    public void printDrevo(List<Designer_Human> humans) {
         System.out.println(humans);
     }
 
 
     /**
-     * метод с лямда выражением forEach (U)
-     * короткая запись для перебора коллекции. Через forEach можно добавлять значение всему списку
+     * метод с лямда выражением forEach
+     * короткая запись для перебора коллекции. через forEach можно добавлять значение всему списку
      */
     public void printTheTreeForEach() {
         femily_tree.forEach(Designer_Human -> System.out.println());
@@ -33,17 +33,17 @@ public class PrintMetods {
     }
 
     /**
-     * Печать древа (U)
+     * Печать древа
      */
-    public void printFamilyTree(List<Femily_Tree> humans) {
-        for (Femily_Tree HHE : humans) {
+    public void printFamilyTree(Femily_Tree humans) {
+        for (Designer_Human HHE : humans) {
             System.out.println(HHE);
         }
         System.out.println();
     }
 
     /**
-     * метод вывода всех людей из дерева (U)
+     * метод вывода всех людей из дерева
      */
     public void ShowALL(List<Designer_Human> humans) {
         for (Designer_Human human : designer_human.getHumans()) {

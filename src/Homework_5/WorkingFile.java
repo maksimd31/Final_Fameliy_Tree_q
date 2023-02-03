@@ -1,6 +1,4 @@
-package Serializator;
-
-import Homework_6.Designer_Human;
+package Homework_5;
 
 import java.io.InvalidObjectException;
 
@@ -15,10 +13,10 @@ public class WorkingFile implements interfaseSave {
     }
 
     @Override
-    public Designer_Human DesSerializa(Designer_Human humans) throws InvalidObjectException { //для чтения
+    public Designer_Human DesSerializa(Designer_Human human1) throws InvalidObjectException { //для чтения
         Serializator serializator = new Serializator();
         try {
-            Designer_Human human11 = serializator.DesSerializa(humans);
+            Designer_Human human11 = serializator.DesSerializa(human1);
             System.out.println(human11.getName());
         } catch (InvalidObjectException e) {
             throw new RuntimeException(e);
