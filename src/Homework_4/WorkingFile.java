@@ -1,8 +1,8 @@
-package Homework_3;
+package Homework_4;
 
 import java.io.InvalidObjectException;
 
-public class Fileworker implements interfaseSave {
+public class WorkingFile implements interfaseSave {
 
 
     @Override

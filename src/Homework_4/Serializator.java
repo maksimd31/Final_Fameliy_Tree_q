@@ -1,4 +1,4 @@
-package Homework_3;
+package Homework_4;
 
 import java.io.*;
 
@@ -43,6 +43,7 @@ public class Serializator implements interfaseSave {
 
     /**
      * Метод чтения
+     *
      * @return
      * @throws InvalidObjectException
      */
@@ -60,13 +61,11 @@ public class Serializator implements interfaseSave {
                 return human;
             }
 
-        } catch (FileNotFoundException e) {
-            throw new RuntimeException(e);
         } catch (IOException e) {
             throw new RuntimeException(e);
         } catch (ClassNotFoundException e) {
             throw new RuntimeException(e);
-        }finally {
+        } finally {
             try {
                 ous.close();
             } catch (IOException e) {
@@ -84,5 +83,5 @@ public class Serializator implements interfaseSave {
 //        Serializator serializator = new Serializator();
 //        System.out.println(serializator.serializa()); //Проверка если true - значит записть прошла
 //
-    }
+}
 
