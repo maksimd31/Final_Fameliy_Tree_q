@@ -3,8 +3,8 @@ package OldClass;
 
 import Homework_6.Designer_Human;
 import Iterator.StaddyIterator;
-import VIVI.Print.IPrintList;
-import VIVI.Print.PrintList;
+//import VIVI.Print.IPrintList;
+//import VIVI.Print.PrintList;
 
 import java.io.Serializable;
 import java.util.*;
@@ -200,9 +200,9 @@ public class Femily_Tree2 implements Serializable, Iterable<Designer_Human>  {//
      * Вариант добавления детей + сканер
      */
     public void addChildrenScanner() { // добавляем детей другим методом
-        IPrintList printList = new PrintList();
+//        IPrintList printList = new PrintList();
         System.out.println("Кто твои родители ?");
-        printList.printList(humans);
+//        printList.printList(humans);
 
         StringBuilder Child = new StringBuilder();
         if (designer_human.getChildren() != null) {
