@@ -1,10 +1,13 @@
-package Homework_5;
+package Cache;
+
+import Homework_6.Designer_Human;
+import Homework_6.Femily_Tree;
 
 import java.util.ArrayList;
 import java.util.List;
 
 public class CacheLimitations<T> {
-    /*
+    /**
      *ОПИСАНИЕ КЛАССА
      *Класс для кеширования списков
      */
@@ -49,7 +52,7 @@ public class CacheLimitations<T> {
     /*
     параметризуем список
     */
-        CacheLimitations<Designer_Human> cache = new CacheLimitations<>(); //параметризуем список людей и устанавливаем размер кэша
+        CacheLimitations<Designer_Human> cache = new CacheLimitations<Designer_Human>(); //параметризуем список людей и устанавливаем размер кэша
         for (Designer_Human H1 : femily_tree) {
             cache.addEl(H1);
         }

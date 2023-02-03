@@ -1,9 +1,11 @@
-package Homework_5;
+package Iterator;
+
+import Homework_6.Designer_Human;
 
 import java.util.Iterator;
 import java.util.List;
 
-class StaddyIterator implements Iterator<Designer_Human> {
+public class StaddyIterator implements Iterator<Designer_Human> {
 
     private int index; //счетчик
     private final List<Designer_Human> humans;
@@ -21,6 +23,10 @@ class StaddyIterator implements Iterator<Designer_Human> {
     public Designer_Human next() {
         return humans.get(index++); //0 1 2 3 ...
     }
+
+    //xnj nj
+
+
 
 }
 
