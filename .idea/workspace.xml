@@ -4,7 +4,26 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="3b9297ea-d8f9-487e-87e8-4e1e15cee518" name="Changes" comment="" />
+    <list default="true" id="3b9297ea-d8f9-487e-87e8-4e1e15cee518" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/src/HomeWork_1/Version_1/.idea/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/HomeWork_1/Version_1/.idea/HomeWork_1.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/HomeWork_1/Version_1/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/HomeWork_1/Version_1/.idea/modules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/HomeWork_1/Version_1/.idea/uiDesigner.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/HomeWork_1/Version_1/.idea/vcs.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/HomeWork_1/Version_2/.idea/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/HomeWork_1/Version_2/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/HomeWork_1/Version_2/.idea/modules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/HomeWork_1/Version_2/.idea/untitled folder.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/HomeWork_1/Version_2/.idea/vcs.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/HomeWork_1/Version_3/.idea/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/HomeWork_1/Version_3/.idea/codeStyles/codeStyleConfig.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/HomeWork_1/Version_3/.idea/compiler.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/HomeWork_1/Version_3/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/HomeWork_1/Version_3/.idea/modules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/HomeWork_1/Version_3/.idea/uiDesigner.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/HomeWork_1/Version_3/.idea/vcs.xml" beforeDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -36,6 +55,9 @@
 }]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/src" />
     </key>
   </component>

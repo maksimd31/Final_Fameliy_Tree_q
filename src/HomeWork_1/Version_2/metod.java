@@ -12,7 +12,7 @@ public class metod {
             Scanner iScanner = new Scanner(System.in);
             String vibor = iScanner.nextLine();
             if (Objects.equals(vibor, "Иван")) {
-                System.out.print(Human.getNAMEe(Baza, "Иван"));
+                System.out.print(Human.getNAME(Baza, "Иван"));
                 break;
             } else {
                 System.out.print("Нет такого попробуй еще");
