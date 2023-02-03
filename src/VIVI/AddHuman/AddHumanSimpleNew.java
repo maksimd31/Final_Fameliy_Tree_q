@@ -1,36 +1,36 @@
-package VIVI.Search;
+package VIVI.AddHuman;
 
 import Converted.IConverted;
 import Converted.PersonConverted;
 import Homework_7.Designer_Human;
-import Homework_7.Femily_Tree;
 
-import java.util.List;
 import java.util.Objects;
 
 import static javax.swing.JOptionPane.showInputDialog;
 import static javax.swing.JOptionPane.showMessageDialog;
 
-public class SearchName implements ISearch {
+public class AddHumanSimpleNew implements IAddHumanSimple {
     Designer_Human designer_human;
-    Femily_Tree femily_tree;
     IConverted iConverted = new PersonConverted();//Объект класса интерфейса (Каждое слово с заглавной буквы)
 
+
     @Override
-    public void search(List<Designer_Human> humans) {
+    public void addHumanSimple() {
         outer:
         for (; ; ) {
             String personName = showInputDialog("Пожалуйста, введите имя:");
             iConverted.personСonvertedUpper_Lower(personName);
 
+            String personSEX = showInputDialog("Пожалуйста, введите пол:");
+            iConverted.personСonvertedUpper_Lower(personName);
 
-            for (Designer_Human human : humans) {
-                if (Objects.equals(human.getName(), personName)) {
-                    humans.add((Designer_Human) designer_human.getHumans());
-//                    femily_tree.forEach(System.out::println);
-                }
-                showMessageDialog(null, humans);
-            }
+            int personDate = Integer.parseInt(showInputDialog("Пожалуйста, год рождения:"));
+
+            Designer_Human designer_human1 = new Designer_Human(personName, personSEX, personDate);
+            designer_human.getHumans().add(designer_human1);
+
+            showMessageDialog(null, "Новый человек добавлен в список: " + designer_human1);
+
             String txt2 = showInputDialog(null, "Повторить Выбор ?\nДа? Нет?");
             if (Objects.equals(txt2.toLowerCase(), "да")) {
                 continue outer;
@@ -41,6 +41,7 @@ public class SearchName implements ISearch {
                 }
             }
         }
-
     }
 }
+
+

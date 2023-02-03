@@ -1,4 +1,4 @@
-package Homework_6;
+package Homework_7;
 
 import Cache.CacheLimitations;
 import Serializator.Serializator;

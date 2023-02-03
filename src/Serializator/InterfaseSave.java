@@ -1,10 +1,10 @@
 package Serializator;
 
-import Homework_6.Designer_Human;
+import Homework_7.Designer_Human;
 
 import java.io.InvalidObjectException;
 
-public interface interfaseSave {
+public interface InterfaseSave {
 //
 
     boolean serializaSave(Designer_Human Human);

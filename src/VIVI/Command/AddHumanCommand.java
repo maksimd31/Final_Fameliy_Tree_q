@@ -1,17 +1,14 @@
 package VIVI.Command;
 
-import Homework_6.Designer_Human;
-import VIVI.AddHuman.AddPeopleWithScanner;
-import VIVI.AddHuman.IAddHuman;
+import VIVI.AddHuman.AddPeopleWithJOptionPane;
+import VIVI.AddHuman.IAddHumanSimple;
 
 public class AddHumanCommand implements ICommand {
 
     @Override
     public void execute() {
-        Designer_Human designer_human = new Designer_Human();
-        IAddHuman iAddHuman = new AddPeopleWithScanner();
-
-        iAddHuman.addHuman(designer_human);
+        IAddHumanSimple iAddHuman = new AddPeopleWithJOptionPane();
+        iAddHuman.addHumanSimple();
 
     }
 }

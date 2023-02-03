@@ -1,10 +1,10 @@
 package Serializator;
 
-import Homework_6.Designer_Human;
+import Homework_7.Designer_Human;
 
 import java.io.InvalidObjectException;
 
-public class WorkingFile implements interfaseSave {
+public class WorkingFile implements InterfaseSave {
 
 
     @Override

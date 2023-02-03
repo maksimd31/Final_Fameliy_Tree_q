@@ -1,6 +1,6 @@
-package Print;
+package VIVI.Print;
 
-import Homework_6.Designer_Human;
+import Homework_7.Designer_Human;
 import Iterator.StaddyIterator;
 
 import java.util.Iterator;
@@ -18,7 +18,7 @@ public class PrintTree implements IPrint,Iterable<Designer_Human>{
 
     @Override
     public Iterator<Designer_Human> iterator() {
-        return new StaddyIterator(designer_human.getHumans());
+        return new StaddyIterator(designer_human.getDesigner_human());
     }
 
     @Override

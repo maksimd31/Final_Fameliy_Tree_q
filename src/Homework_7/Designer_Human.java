@@ -1,4 +1,4 @@
-package Homework_6;
+package Homework_7;
 
 import java.io.Serializable;
 import java.util.ArrayList;
@@ -15,9 +15,12 @@ public class Designer_Human implements Serializable, Comparable<Designer_Human> 
     private String sex;
     private int date;
 
-//    public List<Designer_Human> getDesigner_human() {
-//        return designer_human;
-//    }
+
+
+
+    public List<Designer_Human> getDesigner_human() {
+        return designer_human;
+    }
 
     private List<Designer_Human> designer_human; //константа
 
@@ -51,8 +54,13 @@ public class Designer_Human implements Serializable, Comparable<Designer_Human> 
         Designer_Human.humans = humans;
     }
 
-    public Designer_Human(String personName) {
+
+
+
+    public Designer_Human(String human) {
         this(new ArrayList<>());
+
+
     }
 
 
