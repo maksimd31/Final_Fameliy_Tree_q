@@ -1,8 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
-  <component name="AutoImportSettings">
-    <option name="autoReloadType" value="SELECTIVE" />
-  </component>
   <component name="ChangeListManager">
     <list default="true" id="3b9297ea-d8f9-487e-87e8-4e1e15cee518" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/src/HomeWork_1/Version_1/.idea/.gitignore" beforeDir="false" />
@@ -71,16 +68,5 @@
       <updated>1675413233116</updated>
     </task>
     <servers />
-  </component>
-  <component name="Vcs.Log.Tabs.Properties">
-    <option name="TAB_STATES">
-      <map>
-        <entry key="MAIN">
-          <value>
-            <State />
-          </value>
-        </entry>
-      </map>
-    </option>
   </component>
 </project>
