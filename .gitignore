@@ -2,6 +2,9 @@
 out/
 !**/src/main/**/out/
 !**/src/test/**/out/
+src/OldClasSS
+src/OldClass/
+.idea
 
 ### Eclipse ###
 .apt_generated
