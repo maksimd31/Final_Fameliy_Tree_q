@@ -1,8 +1,9 @@
-package HomeWork_1_2_redone;
+package Homework_3;
 
 import java.io.InvalidObjectException;
 
-public class Fileworker implements interfaseSave{
+public class Fileworker implements interfaseSave {
+
 
     @Override
     public boolean serializaSave(Designer_Human Human) { //для записи

@@ -1,20 +1,23 @@
-package HomeWork_1_2_redone;
+package Homework_3;
 
 import java.io.Serializable;
 import java.util.ArrayList;
-import java.util.Collections;
+import java.util.Iterator;
 import java.util.List;
 import java.util.Scanner;
 
-public class Femily_Tree implements Serializable {
-    private final List<Designer_Human> humans;
+public class Femily_Tree implements Serializable,Iterable<Designer_Human>{//добавил Iterable к
+    // конструктору человека
+    private List<Designer_Human> humans;
+
 
     public Femily_Tree() {
-        this.humans = new ArrayList();
+        super();
+        this.humans = new ArrayList<Designer_Human>();
     }
 
     public List<Designer_Human> getHumans() {
-        return this.humans;
+        return humans;
     }
 
     /**
@@ -24,7 +27,7 @@ public class Femily_Tree implements Serializable {
      * @param father
      * @param mother
      */
-    public void addparents(Designer_Human human, Designer_Human father, Designer_Human mother) {
+    public void addParents(Designer_Human human, Designer_Human father, Designer_Human mother) {
         if (father != null) {
             human.setFather(father);
 
@@ -52,11 +55,12 @@ public class Femily_Tree implements Serializable {
     /**
      * метод вывода всех людей из дерева
      */
-    public void ShowALL() {
+    public void ShowALL(List<Designer_Human> humans) {
         for (Designer_Human human : this.humans) {
             System.out.println(human.toString());
         }
     }
+
 
     /**
      * Поиск по имени
@@ -82,6 +86,14 @@ public class Femily_Tree implements Serializable {
         this.humans.add(human);
     }
 
+    /**
+//     * метод добавления очередной
+//     * @param Humman
+//     */
+//    public void addHumanH(Designer_Human Humman) {
+//        humans.add(Humman);
+//    }
+
     public void searchHuman(List<Designer_Human> humans) {
         Scanner iScanner = new Scanner(System.in);
         System.out.println("Введите имя человека для поиска: ");
@@ -97,15 +109,17 @@ public class Femily_Tree implements Serializable {
         }
     }
 
-    /**
-     * Метод сортировки
-     *
-     * @param list
-     */
-    public void sort(List list) {
-        Collections.sort(list);
+
+
+    @Override
+    public Iterator<Designer_Human> iterator() {
+        return new StaddyIterator(humans); //Реализуем функционал
     }
 
 
 }
+
+
+
+
 

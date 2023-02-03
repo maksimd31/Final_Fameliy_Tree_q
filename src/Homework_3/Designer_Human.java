@@ -1,4 +1,4 @@
-package HomeWork_1_2_redone;
+package Homework_3;
 
 import java.io.Serializable;
 import java.util.ArrayList;
@@ -7,10 +7,26 @@ import java.util.List;
 /**
 Описываем сущность вида human
  */
-public class Designer_Human implements Serializable{
+public class Designer_Human implements Serializable, Comparable<Designer_Human> {
+    public Femily_Tree Designer_Human;
     //создаем поля в классе
     private String name, sex;
-    private int date;
+    private int date,id;
+
+    public String getName(){
+        return name;
+    }
+    public void setName(String name) {
+        this.name = name;
+    }
+
+    public String getSex() {
+        return sex;
+    }
+
+    public int getDate() {
+        return date;
+    }
 
     private Designer_Human father; // Объектная переменная
 
@@ -18,7 +34,13 @@ public class Designer_Human implements Serializable{
 
     private List<Designer_Human> children;
 
-    private List<Designer_Human> humans;
+//    private List<Designer_Human> serviss;
+
+//    public List<Designer_Human> getHumans() {
+//        return humans;
+//    }
+
+    private static List<Designer_Human> humans;
 
     public Designer_Human(List<Designer_Human> humans){
         this.humans =humans;
@@ -43,8 +65,9 @@ public class Designer_Human implements Serializable{
         this.date = date;
         this.father = father;
         this.mother = mother;
-//        this.humans = humans;
         this.children = new ArrayList<>();
+        this.humans = new ArrayList<>();
+
 
     }
 
@@ -55,32 +78,36 @@ public class Designer_Human implements Serializable{
      * @param date
      */
     public Designer_Human(String name, String sex, int date) {
+        this();
         this.name = name;
         this.sex = sex;
         this.date = date;
     }
 
-   /**
-   Создаем геторы и сетеры
-    */
-    public String getName() {
-        return name;
-    }
-
-    public void setName(String name) {
+    /**
+     * конструктор с добавлением id
+     * @param id
+     * @param name
+     * @param sex
+     * @param date
+     */
+    public Designer_Human(int id, String name, String sex, int date) {
+        this();
+        this.id = id;
         this.name = name;
+        this.sex = sex;
+        this.date = date;
+        this.humans = new ArrayList<>();
+        this.children = new ArrayList<>();
     }
 
-    public String getSex() {
-        return sex;
-    }
-
-    public int getDate() {
-        return date;
-    }
 
     public void setFather(Designer_Human father) {
         this.father = father;
+    }
+
+    public Designer_Human getMother() {
+        return mother;
     }
 
     public void setMother(Designer_Human mother) {
@@ -91,12 +118,15 @@ public class Designer_Human implements Serializable{
         return children;
     }
 
+    public void setChildren(List<Designer_Human> children) {
+        this.children = children;
+    }
 
     /**
      * Вариант добавления детей
      * @return Возвращает список с параметрами toString
      */
-    public String AddChildren() { // добавляем детей другим методом
+    public String addChildren() { // добавляем детей другим методом
         StringBuilder Child = new StringBuilder();
         if (this.children != null) {
             Child.append(getName());
@@ -115,7 +145,7 @@ public class Designer_Human implements Serializable{
      * @param sex
      * @param date
      */
-    public void AddHuman(String name, String sex, int date){
+    public void addHuman(String name, String sex, int date){
         Designer_Human HH = new Designer_Human(name,sex,date);
         this.humans.add(HH);
     }
@@ -130,5 +160,18 @@ public class Designer_Human implements Serializable{
         return "Имя: " + getName() + " Возраст: " + getDate() + " Пол : " + getSex() + " Мать : " + mother + " " +
                 " Отец : " + father;
     }
+    /**
+     * метод добавления очередной
+//     * @param Human
+     */
+    public static void addHumanH(Designer_Human Human) {
+        humans.add(Human);
+    }
+
+    @Override
+    public int compareTo(Homework_3.Designer_Human o) {
+        return name.compareTo(o.getName());
+    }
 }
+
 

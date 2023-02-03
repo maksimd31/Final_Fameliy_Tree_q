@@ -1,9 +1,8 @@
-package HomeWork_1_2_redone;
+package Homework_3;
 
 import java.io.InvalidObjectException;
 
 public interface interfaseSave {
-
 
     boolean serializaSave(Designer_Human Human);
 
