@@ -5,56 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="3b9297ea-d8f9-487e-87e8-4e1e15cee518" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/Converted/IConverted.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Converted/PersonConverted.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/VIVI/AddCildren/AddChildrenJOptionPane.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/VIVI/AddHuman/AddHumanSimpleNew.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/VIVI/AddHuman/AddPeopleOld.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/VIVI/AddHuman/AddPeopleWithJOptionPane.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/VIVI/AddHuman/IAddHumanSimple.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/VIVI/AddParents/AddParentsJOptionPane.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/VIVI/AddParents/AddParentsJPNew.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/VIVI/Command/AddParentsCommand.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Cache/CacheLimitations.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Cache/CacheLimitations.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Homework_6/Designer_Human.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Homework_7/Designer_Human.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Homework_6/Femily_Tree.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Homework_7/Femily_Tree.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Homework_6/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Homework_7/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Iterator/StaddyIterator.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Iterator/StaddyIterator.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Print/IPrint.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/VIVI/Print/IPrint.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Print/IPrintList.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/VIVI/Print/IPrintList.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Print/PrintList.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/VIVI/Print/PrintList.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Print/PrintListAll.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/VIVI/Print/PrintListAll.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Print/PrintListInFor.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/VIVI/Print/PrintListInFor.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Print/PrintTree.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/VIVI/Print/PrintTree.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Readme.md" beforeDir="false" afterPath="$PROJECT_DIR$/src/Readme.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Serializator/Serializator.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Serializator/Serializator.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Serializator/WorkingFile.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Serializator/WorkingFile.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Serializator/interfaseSave.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Serializator/InterfaseSave.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/VIVI/AddCildren/AddChildrenScanner.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/VIVI/AddCildren/AddChildrenScannerOld.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/VIVI/AddCildren/AddChildrenSimmple.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/VIVI/AddHuman/AddPeopleWithAnIdScanner.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/VIVI/AddHuman/AddPeopleWithScanner.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/VIVI/AddHuman/IAddHuman.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/VIVI/AddHuman/IAddHuman.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/VIVI/AddParents/AddParentsOld.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/VIVI/AddParents/AddParentsOld.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/VIVI/AddParents/AddParentsScanner.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/VIVI/Command/AddCildrenCommand.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/VIVI/Command/AddCildrenCommand.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/VIVI/Command/AddHumanCommand.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/VIVI/Command/AddHumanCommand.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/VIVI/Command/Presenter.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/VIVI/Command/Presenter.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/VIVI/Command/SearchCommand.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/VIVI/Command/SearchCommand.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/VIVI/Command/ShowTreeAllCommand.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/VIVI/Command/ShowTreeAllCommand.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/VIVI/Command/addParentsCommand.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/VIVI/Search/ISearch.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/VIVI/Search/ISearch.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/VIVI/Search/SearchHuman.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/VIVI/Search/SearchHuman.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/VIVI/Search/SearchName.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/VIVI/Search/SearchName.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/VIVI/Sort/SortByDateOfBirth.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/VIVI/Sort/SortByDateOfBirth.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/VIVI/Sort/SortByName.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/VIVI/Sort/SortByName.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/VIVI/Sort/SortByStreamByDate.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/VIVI/Sort/SortByStreamByDate.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/VIVI/Sort/SortByStreamByName.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/VIVI/Sort/SortByStreamByName.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/VIVI/Sort/SortLamdaByName.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/VIVI/Sort/SortLamdaByName.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/VIVI/ViewNew.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/VIVI/ViewNew.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/VIVI/ViewNewTest.java" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -69,11 +21,11 @@
     </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
-  <component name="GitHubPullRequestSearchHistory"><![CDATA[{
-  "lastFilter": {
-    "state": "OPEN"
+  <component name="GitHubPullRequestSearchHistory">{
+  &quot;lastFilter&quot;: {
+    &quot;state&quot;: &quot;OPEN&quot;
   }
-}]]></component>
+}</component>
   <component name="GithubPullRequestsUISettings">
     <option name="selectedUrlAndAccountId">
       <UrlAndAccount>
@@ -82,19 +34,22 @@
       </UrlAndAccount>
     </option>
   </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
   <component name="ProjectId" id="2LDkqUrxlIdXEvJzrZRYmMrFTsS" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "last_opened_file_path": "/Users/imacson/Desktop/education GB/Java oop/Final_Fameliy_Tree/src"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;/Users/imacson/Desktop/education GB/Java oop/Final_Fameliy_Tree/src&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/src" />
